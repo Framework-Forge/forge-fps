@@ -77,15 +77,4 @@ npm run build
 
 `npm run dev` oferece prévia em `127.0.0.1`; nela não são inventadas medições nem executado benchmark. O FiveM usa apenas o resultado estático compilado, sem precisar Node/npm no servidor. Sem fontes/CDNs ou chamadas HTTP de telemetria em runtime. Não distribua `node_modules` ou `[base de dados]`.
 
-## Documentação e validação
-
-- [Catálogo e comparação detalhada das duas referências](docs/ANALISE-REFERENCIAS.md).
-- [Destino das 87 opções da referência](docs/CATALOGO-87.md).
-- [Administração, novos ajustes e controle exclusivo](docs/ADMINISTRACAO.md).
-- [Novidades, limites e testes da versão 1.3](docs/RELEASE-1.3.md).
-- [Revisão 1.3.1: medição, custo, qualidade e 17mov](docs/REVISAO-1.3.1.md).
-- [Contrato de interface](docs/UI-SPEC.md).
-- [Roteiro de testes no FiveM](docs/TESTES.md).
-- [Resultado das verificações locais](docs/VALIDACAO.md).
-
 As verificações automatizadas locais cobrem Lua, política/validação, restauração, sessões NUI e navegador. **Não equivalem a teste nativo de FPS no GTA**. A primeira versão mantém o comportamento conservador para os testes do administrador antes de liberar aos jogadores.
