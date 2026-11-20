@@ -1,4 +1,5 @@
 Config = {
+    VersionCheck = true,
     Command = 'fps',
     Key = 'F10', -- '' desativa a tecla; /fps continua disponível.
     StorageKey = 'forge-fps:preferences:v1',

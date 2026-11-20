@@ -38,12 +38,13 @@ FpsServerConfig = {
             enabled = true,
             baseline = true
         },
+        -- Renewed-Weathersync e Forge Housing controlam a iluminacao nesta base.
         artificialLights = {
-            enabled = true,
+            enabled = false,
             baseline = true
         },
         artificialLightsVeh = {
-            enabled = true,
+            enabled = false,
             baseline = true
         },
         vehicleDistantLights = {

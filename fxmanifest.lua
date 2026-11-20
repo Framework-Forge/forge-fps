@@ -4,7 +4,7 @@ lua54 'yes'
 name 'forge-fps'
 author 'Forge Project - by: PierreMoraes'
 description 'Desempenho local, medição real e ajustes conservadores'
-version '1.3.1'
+version '1.3.3'
 
 shared_scripts {
     'config.lua',
@@ -35,3 +35,5 @@ files {
     'web/dist/index.html',
     'web/dist/assets/*'
 }
+
+server_script 'server/version.lua'
